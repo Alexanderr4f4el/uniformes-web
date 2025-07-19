@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uniformes Pro</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f6f6f6; }
+    header { background: #0d47a1; color: white; padding: 20px; text-align: center; }
+    nav { background: #1565c0; text-align: center; }
+    nav a { color: white; padding: 14px 20px; display: inline-block; text-decoration: none; }
+    nav a:hover { background: #0d47a1; }
+    .hero { background: url('https://i.imgur.com/YoMEOEM.jpg') center/cover; padding: 80px 20px; color: white; text-align: center; }
+    .hero h1 { font-size: 2.5rem; }
+    .productos { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 40px; }
+    .producto { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .producto img { width: 100%; border-radius: 8px; }
+    .producto h3 { margin: 10px 0 5px; }
+    .producto p { font-size: 0.9rem; }
+    .btn { display: inline-block; margin-top: 10px; padding: 10px 20px; background: #0d47a1; color: white; border: none; border-radius: 5px; text-decoration: none; }
+    .btn:hover { background: #08306b; }
+    footer { background: #0d47a1; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Uniformes Pro</h1>
+    <p>Calidad y estilo para tu equipo</p>
+  </header>
+
+  <nav>
+    <a href="#productos">Productos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Uniformes Personalizados para Empresas y Escuelas</h1>
+    <p>Solicita tu cotización hoy mismo</p>
+    <a href="#productos" class="btn">Ver Catálogo</a>
+  </section>
+
+  <section id="productos" class="productos">
+    <div class="producto">
+      <img src="https://i.imgur.com/MXas38T.jpg" alt="Uniforme Escolar">
+      <h3>Uniforme Escolar</h3>
+      <p>Disponible en todas las tallas. Incluye camisa, pantalón o falda y suéter.</p>
+      <a href="#" class="btn">Comprar</a>
+    </div>
+    <div class="producto">
+      <img src="https://i.imgur.com/1wMeITx.jpg" alt="Uniforme Industrial">
+      <h3>Uniforme Industrial</h3>
+      <p>Alta resistencia para trabajos exigentes. Personalización con logotipo disponible.</p>
+      <a href="#" class="btn">Comprar</a>
+    </div>
+    <div class="producto">
+      <img src="https://i.imgur.com/vCLp9GL.jpg" alt="Uniforme Médico">
+      <h3>Uniforme Médico</h3>
+      <p>Cómodo y profesional. Colores personalizados para clínicas u hospitales.</p>
+      <a href="#" class="btn">Comprar</a>
+    </div>
+  </section>
+
+  <footer id="contacto">
+    <p>Contacto: info@uniformespro.com | WhatsApp: +51 987 654 321</p>
+    <p>&copy; 2025 Uniformes Pro. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
